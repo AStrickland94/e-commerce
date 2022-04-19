@@ -1,11 +1,11 @@
 import styles from "./Home.module.scss";
 import ProductList from "../../containers/ProductList";
-// import Carousel from "../../components/Carousel";
+import Carousel from "../../components/Carousel";
 
 const Home = () => {
     return (
         <div>
-            {/* <Carousel /> */}
+            <Carousel />
             <ProductList />
         </div>
     );
