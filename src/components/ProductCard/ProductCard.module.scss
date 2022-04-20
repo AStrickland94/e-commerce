@@ -4,4 +4,12 @@
         width: 400px;
         height: 600px;
     }
+
+    &__fav {
+        cursor: pointer;
+    }
+}
+
+.isFav {
+    color: red;
 }

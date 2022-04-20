@@ -1,0 +1,12 @@
+.ProductPage {
+    &__img {
+        max-width: 800px;
+    }
+    &__fav {
+        cursor: pointer;
+    }
+}
+
+.isFav {
+    color: red;
+}

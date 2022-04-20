@@ -57,9 +57,7 @@ const Carousel = () => {
                 &#10095;
             </button>
         </div>
-    ) : (
-        console.log("uh oh")
-    );
+    ) : null;
 };
 
 export default Carousel;

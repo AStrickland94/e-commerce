@@ -1,0 +1,22 @@
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+
+    &__list {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        margin: 0;
+        height: 50px;
+        width: 100%;
+        &_item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 30px;
+            height: 100%;
+            background-color: gray;
+        }
+    }
+}
